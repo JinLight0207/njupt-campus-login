@@ -14,8 +14,7 @@ username = B20240001
 password = your_password_here
 # 运营商 (后缀), 可选:
 #   cmcc      中国移动    -> 账号变为 ,0,B20240001@cmcc
-#   telecom   中国电信    -> 账号变为 ,0,B20240001@telecom
-#   unicom    中国联通    -> 账号变为 ,0,B20240001@unicom
+#   telecom(或者是chinanet)   中国电信    -> 账号变为 ,0,B20240001@telecom
 #   default   校园网默认  -> 账号变为 ,0,B20240001   (无后缀)
 operator = cmcc
 
