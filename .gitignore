@@ -1,0 +1,25 @@
+# ===== 敏感信息: 切勿提交到 GitHub =====
+config.ini
+config.local.ini
+*.har
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# ===== WorkBuddy 工作区 (本地工作记录, 不开源) =====
+.workbuddy/
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

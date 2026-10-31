@@ -1,0 +1,30 @@
+# 南京邮电大学校园网自动登录 - 配置文件示例
+# 使用方法:
+#   1. 复制本文件为 config.ini (同目录)
+#   2. 填写下方信息后运行: python njupt_login.py
+#   3. 命令行参数 / 环境变量可覆盖此处配置
+#
+# 注意: 本文件含敏感信息 (密码), 请设置文件权限 (chmod 600),
+#       不要提交到版本库或分享给他人。
+
+[auth]
+# 校园网账号 (学号 / 工号)
+username = B20240001
+# 校园网密码
+password = your_password_here
+# 运营商 (后缀), 可选:
+#   cmcc      中国移动    -> 账号变为 ,0,B20240001@cmcc
+#   telecom   中国电信    -> 账号变为 ,0,B20240001@telecom
+#   unicom    中国联通    -> 账号变为 ,0,B20240001@unicom
+#   default   校园网默认  -> 账号变为 ,0,B20240001   (无后缀)
+operator = cmcc
+
+[server]
+# 认证服务器地址 (默认: p.njupt.edu.cn)
+host = p.njupt.edu.cn
+# 认证服务器端口 (默认: 804)
+port = 804
+# 客户端内网 IP (可选, 留空则自动获取; 自动获取失败时手动填写, 如 10.161.240.179)
+ip =
+# 自定义 User-Agent (可选, 留空使用默认浏览器 UA)
+user_agent =
