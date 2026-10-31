@@ -102,7 +102,6 @@ schtasks /create /tn "NJUPT Auto Login" /tr "python C:\scripts\njupt_login.py -c
 
 ## 安全提示
 
-- **config.ini 含密码，已被 `.gitignore` 排除**，不会提交到仓库
 - 建议设置文件权限：`chmod 600 config.ini`（Linux/NAS）
 - 该认证协议密码为明文传输（协议本身决定），请在可信校园网环境使用
 - 切勿将账号密码提交到任何公开仓库
