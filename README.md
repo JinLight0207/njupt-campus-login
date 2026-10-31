@@ -87,7 +87,6 @@ schtasks /create /tn "NJUPT Auto Login" /tr "python C:\scripts\njupt_login.py -c
 |-------|--------|---------|
 | `cmcc` | 中国移动 | `,0,学号@cmcc` |
 | `telecom` | 中国电信 | `,0,学号@telecom` |
-| `unicom` | 中国联通 | `,0,学号@unicom` |
 | `default` | 校园网默认 | `,0,学号` |
 
 ## 认证原理
